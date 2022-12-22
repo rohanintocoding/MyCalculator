@@ -1,0 +1,88 @@
+:root{
+    
+    --primary-orange:rgb(255, 148, 0);
+    --primary-dark-orange:rgb(167, 107, 23);
+    --primary-grey:rgb(159, 159, 159);
+    --primary-light-grey:rgb(49, 49, 49);
+    --primary-med-grey:rgb(100, 100, 100);
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgba(223, 206, 206, 0.603);
+}
+.container{
+    max-width: max-content;
+    margin:100px auto ;
+    background-color: black;
+    border-radius: 5px;
+    text-align: center;
+    padding: 10px 0px;
+     box-shadow:
+    2.5px 2.3px 2.4px rgba(0, 0, 0, 0.022),
+    5.7px 5.2px 5.3px rgba(0, 0, 0, 0.033),
+    9.6px 8.9px 9px rgba(0, 0, 0, 0.04),
+    14.9px 13.7px 13.8px rgba(0, 0, 0, 0.047),
+    22px 20.4px 20.5px rgba(0, 0, 0, 0.053),
+    32.4px 29.9px 30.2px rgba(0, 0, 0, 0.06),
+    48.5px 44.9px 45.2px rgba(0, 0, 0, 0.067),
+    77.4px 71.5px 72px rgba(0, 0, 0, 0.078),
+    145px 134px 135px rgba(0, 0, 0, 0.1);
+}
+.row1{
+    margin: 2px;
+}
+.row{
+    background-color: black;
+    margin: 5px;
+}
+.input{
+    /* margin: 5px; */
+    background-color: black;
+    color: white;
+    padding: 15px;
+    font-size: 20px;
+    /* width: 100%; */
+    border: 1px solid black;
+    /* border-radius: 4px; */
+    text-align: end;
+    outline: 0px solid black;
+    
+}
+.button{
+    padding: 15px 20px;
+    font-size: 20px;
+    border-radius: 100%;
+    background-color:var(--primary-grey);
+}
+.ac{
+    padding: 15px 40px;
+    border-radius: 30px;
+}
+.zero{
+    padding: 15px 15px;
+}
+.decimal{
+    padding: 13px 23px 17px 23px;
+    
+}
+.substract{
+    padding:15px 22px;
+}
+.devide{
+    padding: 15px 24px;
+}
+.button:hover{
+    background-color: var(--primary-med-grey);
+}
+.side{
+    background-color: var(--primary-orange);
+}
+.side:hover{
+    background-color: var(--primary-dark-orange);
+}
